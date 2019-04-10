@@ -1,3 +1,5 @@
+// PROJECT DETAILS
+
 This repository includes an LRUCacheService that maintains an LRUCache of size 2 and exposes a REST API
 with the functions - GET and PUT that can be invoked as -
 
@@ -6,6 +8,12 @@ curl -X GET http://localhost:8080/lrucache/api/v1/get/1
 
 curl -X PUT http://localhost:8080/lrucache/api/v1/put/1/10
 (1 = key and 10 = value)
+
+// TESTING DETAILS
+
+-> Unit Tests added for all code.
+
+-> Manual Testing as follows -
 
 The following test scenarios were run on command line and all resulted in successful result.
 
